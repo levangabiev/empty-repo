@@ -9,9 +9,9 @@ def numeral_check(numeral):
   max_count=0
   max_number=0
   for i in range(1,numeral+1):
-    new_value=int(input('введите число'))
+    new_value=int(input('введите число: '))
     if new_value<0:
-      new_value=0
+      new_value=abs(new_value)
     if numeral_count(new_value)>max_count:
       max_count=numeral_count(new_value)
       max_number=new_value
