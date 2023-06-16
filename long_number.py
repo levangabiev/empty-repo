@@ -17,5 +17,5 @@ def numeral_check(numeral):
       max_number=new_value
   return max_number
 
-numeral=int(input('введите количество задач: '))
+numeral=int(input('введите  '))
 print('первая задача на обработку: ', numeral_check(numeral))
